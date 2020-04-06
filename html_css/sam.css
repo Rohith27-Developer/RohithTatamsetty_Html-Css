@@ -1,0 +1,956 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background: #FFF;
+  text-align:center;
+}
+.back
+{
+background:url('background.jpg') no-repeat;
+ width:100%;
+  height:200vh;
+  background-size:300%;
+}
+#nav-custom{
+    background:#01b4d2;
+    color:white;
+    width:29.5%;
+    margin: 0 auto 0 auto;
+   text-align: center;
+    border-bottom: none;
+}
+.logo{
+    height: 70%;
+    width:3em;
+}
+.logo img{
+    height: 70%;
+    width:100%;
+}
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 5px;
+  background: white;
+  border-radius: 0px 0px 0px 0px;
+  
+}
+span.fa {
+    position: absolute;
+    top: 65%;
+    color:#9e9e9e;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group input {
+  height: 6%;
+  width: 95%;
+  padding: 5px 10px;
+  font-size: 120%;
+  margin:0 auto;
+  style="text-align:center;
+  margin:auto;    
+  border-radius: 2px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 1px;
+   width: 95%;
+   height:6%;
+  color: white;
+  font-size:110%;
+  margin:0 auto;
+  margin-top:10px;
+  background: #90caf9;
+  border: none;
+  border-radius: 5px;
+}
+h4 {
+   color:#9e9e9e;
+   width: 96%; 
+   text-align: center; 
+   border-bottom: 2px solid #9e9e9e;
+   line-height: 0.1em;
+   margin: 80px 0 60px; 
+   margin-left:2%;
+} 
+
+h4 span { 	
+    background:#fff; 
+    padding:0 10px; 
+}
+p
+{
+ color:#757575;
+}
+.fb {
+  padding:1px; 
+  width:95%;
+  height:6%;
+  margin:0 auto;
+  border: none;
+  border-radius: 5px;
+  border: 0; 
+  background:#4a6ea9;
+}
+.gmail {
+  padding:1px; 
+  width:95%;
+  height:6%;
+   margin:0 auto;
+  border: none;
+  border-radius: 5px;
+  border: 0; 
+  background:#4a6ea9;
+}
+.epam {
+  padding: 1px;
+   width: 95%;
+   height:10%;
+   margin:0 auto;
+  font-size: 20px;
+  color: white;
+  margin-top:40px;
+  border: none;
+  border-radius: 5px;
+  background:#d0d253;
+}
+
+.fb1
+{
+ height:85%;
+}
+.gmail1
+{
+height:85%;
+}
+.forgot
+{
+  margin-left:12px;
+}
+.reg
+{
+ margin-right:12px;
+}
+.email
+{
+  background:#FFFFFF;
+  border: #ccc 1px solid;
+  border-bottom: #ccc 2px solid;
+  padding: 8px;
+  width:250px;
+  color:#AAAAAA;
+  font-size:1em;
+  border-radius:4px;
+}
+@media only screen and (max-width:400px)
+{
+.back
+{
+ background:#FFF;
+}
+#nav-custom{
+    background:#01b4d2;
+    color:white;
+    width:100%;
+    margin: 0 auto 0 auto;
+ text-align: center;
+  border-bottom: none;
+  padding: 2px;
+}
+.logo{
+    height: 100%;
+    width:3em;
+}
+.logo img{
+    height: 100%;
+    width:100%;
+}
+form, .content {
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  padding: 5px;
+  background: white;
+  border-radius: 0px 0px 0px 0px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group input {
+  height: 30px;
+  width: 95%;
+  padding: 5px 10px;
+  font-size: 16px;
+  margin-top:4%;
+  margin:4 auto;
+  margin-right:14px;
+  style="text-align:center;
+  margin:auto;    
+  border-radius: 2px;
+  border: 1px solid gray;
+}
+
+.btn {
+  padding: 10px;
+   width: 95%;
+  font-size: 15px;
+  color: white;
+  margin-top:25px;
+  margin:20 auto;
+  margin-right:14px;
+  background: #90caf9;
+  border: none;
+  border-radius: 5px;
+}
+h4 {
+   color:#9e9e9e;
+   width: 96%; 
+   text-align: center; 
+   border-bottom: 2px solid #9e9e9e;
+   line-height: 0.1em;
+   margin: 80px 0 60px; 
+   margin-left:2%;
+} 
+
+h4 span { 	
+    background:#fff; 
+    padding:0 10px; 
+}
+p
+{
+ color:#757575;
+}
+.fb {
+  padding:1px; 
+  width:95%;
+  margin:20 auto;
+  margin-right:14px;
+  border: none;
+  border-radius: 5px;
+  border: 0; 
+  background:#4a6ea9;
+}
+.gmail {
+  padding:1px; 
+  width:95%;
+  margin:-20 auto;
+  margin-right:14px;
+  border: none;
+  border-radius: 5px;
+  border: 0; 
+  background:#4a6ea9;
+}
+.epam {
+  padding: 1px;
+   width: 95%;
+  margin-top:50px;
+ margin:20 auto;
+  margin-right:14px;
+  font-size: 20px;
+  color: white;
+  margin-top:40px;
+  border: none;
+  border-radius: 5px;
+  background:#d0d253;
+}
+.fb1
+{
+ height:85%;
+}
+.gmail1
+{
+height:85%;
+}
+.forgot
+{
+  margin-left:12px;
+}
+.reg
+{
+ margin-right:12px;
+}
+}
+@media only screen and (min-width:400px) and (max-width:500px)
+{
+.back
+{
+ background:#FFF;
+}
+#nav-custom{
+    background:#01b4d2;
+    color:white;
+    width:100%;
+    margin: 0 auto 0 auto;
+ text-align: center;
+  border-bottom: none;
+  padding: 2px;
+}
+.logo{
+    height: 100%;
+    width:2em;
+}
+.logo img{
+    height: 100%;
+    width:100%;
+}
+form, .content {
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  padding: 5px;
+  background: white;
+  border-radius: 0px 0px 0px 0px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group input {
+  height: 30px;
+  width: 95%;
+  padding: 5px 10px;
+  font-size: 16px;
+  margin-top:4%;
+  margin:4 auto;
+  margin-right:14px;
+  style="text-align:center;
+  margin:auto;    
+  border-radius: 2px;
+  border: 1px solid gray;
+}
+
+.btn {
+  padding: 1px;
+   width: 95%;
+  font-size: 15px;
+  color: white;
+  margin-top:25px;
+  height:6%;
+  margin:20 auto;
+  margin-right:14px;
+  background: #90caf9;
+  border: none;
+  border-radius: 5px;
+}
+h4 {
+   color:#9e9e9e;
+   width: 96%; 
+   text-align: center; 
+   border-bottom: 2px solid #9e9e9e;
+   line-height: 0.1em;
+   margin: 80px 0 60px; 
+   margin-left:2%;
+} 
+
+h4 span { 	
+    background:#fff; 
+    padding:0 10px; 
+}
+p
+{
+ color:#757575;
+}
+.fb {
+  padding:1px; 
+  width:95%;
+  margin:20 auto;
+  margin-right:14px;
+  border: none;
+  border-radius: 5px;
+  border: 0; 
+  background:#4a6ea9;
+}
+.gmail {
+  padding:1px; 
+  width:95%;
+  margin:-20 auto;
+  margin-right:14px;
+  border: none;
+  border-radius: 5px;
+  border: 0; 
+  background:#4a6ea9;
+}
+.epam {
+  padding: 1px;
+   width: 95%;
+  margin-top:50px;
+ margin:20 auto;
+  margin-right:14px;
+  font-size: 17px;
+  color: white;
+  margin-top:40px;
+  border: 0;
+  border-radius: 5px;
+  background:#d0d253;
+}
+.fb1
+{
+ height:85%;
+}
+.gmail1
+{
+height:85%;
+}
+.forgot
+{
+  margin-left:12px;
+}
+.reg
+{
+ margin-right:12px;
+}
+}
+@media only screen and (min-width:500px) and (max-width:699px)
+{
+.back
+{
+ background:#FFF;
+}
+#nav-custom{
+    background:#01b4d2;
+    color:white;
+    width:100%;
+    margin: 0 auto 0 auto;
+ text-align: center;
+  border-bottom: none;
+  padding: 2px;
+}
+.logo{
+    height: 100%;
+    width:2em;
+}
+.logo img{
+    height: 100%;
+    width:100%;
+}
+form, .content {
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  padding: 5px;
+  background: white;
+  border-radius: 0px 0px 0px 0px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group input {
+  height: 7%;
+  width: 95%;
+ font-size:150%;
+  padding: 5px 10px;
+  margin-top:4%;
+  margin:4 auto;
+  margin-right:14px;
+  style="text-align:center;
+  margin:auto;    
+  border-radius: 2px;
+  border: 1px solid gray;
+}
+
+.btn {
+  padding: 1px;
+   width: 95%;
+  color: white;
+  margin-top:25px;
+  font-size:150%;
+  margin:20 auto;
+  margin-right:14px;
+  background: #90caf9;
+  border: none;
+  border-radius: 5px;
+}
+h4 {
+   color:#9e9e9e;
+   width: 94%; 
+   text-align: center; 
+   border-bottom: 2px solid #9e9e9e;
+   line-height: 0.1em;
+   font-size:120%;
+   margin: 80px 0 60px; 
+   margin-left:2%;
+} 
+
+h4 span { 	
+    background:#fff; 
+    padding:0 10px; 
+}
+p
+{
+ color:#757575;
+ font-size:120%;
+}
+.fb {
+  padding:1px; 
+  width:95%;
+  margin:40 auto;
+  margin-right:14px;
+    height:6%;
+  border: none;
+  border-radius: 5px;
+  border: 0; 
+  background:#4a6ea9;
+}
+.gmail {
+  padding:1px; 
+  width:95%;
+  height:6%;
+  margin:-20 auto;
+  margin-right:14px;
+  border: none;
+  border-radius: 5px;
+  border: 0; 
+  background:#4a6ea9;
+}
+.epam {
+  padding: 1px;
+   width: 95%;
+  margin:70 auto;
+   font-size:150%;
+  margin-right:14px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background:#d0d253;
+}
+
+.fb1
+{
+ height:85%;
+}
+.gmail1
+{
+height:85%;
+}
+.forgot
+{
+  margin-left:12px;
+}
+.reg
+{
+ margin-right:12px;
+}
+}
+@media only screen and (min-width:700px) and (max-width:995px)
+{
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background: #FFF;
+  text-align:center;
+}
+.back
+{
+ background:#FFF;
+}
+#nav-custom{
+    background:#01b4d2;
+    color:white;
+    width:70%;
+    margin: 0 auto 0 auto;
+ text-align: center;
+  border-bottom: none;
+  padding: 2px;
+}
+.logo{
+    height: 100%;
+    width:2em;
+}
+.logo img{
+    height: 100%;
+    width:100%;
+}
+
+form, .content {
+  width: 70%;
+  height: 100%;
+  margin: 0px auto;
+  padding: 5px;
+  background: white;
+  border-radius: 0px 0px 0px 0px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group input {
+  height: 8%;
+  width: 95%;
+ font-size:160%;
+  padding: 5px 10px;
+  margin-top:4%;
+  margin:4 auto;
+  margin-right:14px;
+  style="text-align:center;
+  margin:auto;    
+  border-radius: 2px;
+  border: 1px solid gray;
+}
+
+.btn {
+  padding: 1px;
+   width: 95%;
+   height:7%;
+  color: white;
+  margin-top:25px;
+  font-size:160%;
+  margin:20 auto;
+  margin-right:14px;
+  background: #90caf9;
+  border: none;
+  border-radius: 5px;
+}
+h4 {
+   color:#9e9e9e;
+   width: 94%; 
+   text-align: center; 
+   border-bottom: 3px solid #9e9e9e;
+   line-height: 0.1em;
+   font-size:160%;
+   margin: 120px 0 80px; 
+   margin-left:2%;
+} 
+
+h4 span { 	
+    background:#fff; 
+    padding:0 10px; 
+}
+p
+{
+ color:#757575;
+font-size:120%;
+}
+.fb {
+  padding:2px; 
+  width:94%;
+  margin:0 auto;
+  margin-right:14px;
+    height:7%;
+  border: none;
+  border-radius: 5px;
+  border: 0; 
+  background:#4a6ea9;
+}
+.gmail {
+  padding:2px; 
+  width:94%;
+  height:7%;
+  margin:10 auto;
+  margin-right:14px;
+  border: none;
+  border-radius: 5px;
+  border: 0; 
+  background:#4a6ea9;
+}
+.epam {
+  padding: 1px;
+   width: 94%;
+   height:7%;
+  margin:70 auto;
+   font-size:150%;
+  margin-right:14px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background:#d0d253;
+}
+.fb1
+{
+ height:85%;
+}
+.gmail1
+{
+height:85%;
+}
+.forgot
+{
+  margin-left:12px;
+}
+.reg
+{
+ margin-right:12px;
+}
+}
+@media only screen and (min-width:1000px) and (max-width:1025px)
+{
+.back
+{
+ background:#FFF;
+}
+#nav-custom{
+    background:#01b4d2;
+    color:white;
+    width:70%;
+    margin: 0 auto 0 auto;
+ text-align: center;
+  border-bottom: none;
+  padding: 2px;
+}
+.logo{
+    height: 100%;
+    width:2em;
+}
+.logo img{
+    height: 100%;
+    width:100%;
+}
+form, .content {
+  width: 70%;
+  height: 100%;
+  margin: 0px auto;
+  padding: 5px;
+  background: white;
+  border-radius: 0px 0px 0px 0px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group input {
+  height: 8%;
+  width: 95%;
+ font-size:160%;
+  padding: 5px 10px;
+  margin-top:4%;
+  margin:4 auto;
+  margin-right:14px;
+  style="text-align:center;
+  margin:auto;    
+  border-radius: 2px;
+  border: 1px solid gray;
+}
+
+.btn {
+  padding: 1px;
+   width: 95%;
+   height:7%;
+  color: white;
+  margin-top:25px;
+  font-size:160%;
+  margin:20 auto;
+  margin-right:14px;
+  background: #90caf9;
+  border: none;
+  border-radius: 5px;
+}
+h4 {
+   color:#9e9e9e;
+   width: 94%; 
+   text-align: center; 
+   border-bottom: 3px solid #9e9e9e;
+   line-height: 0.1em;
+   font-size:160%;
+   margin: 120px 0 80px; 
+   margin-left:2%;
+} 
+
+h4 span { 	
+    background:#fff; 
+    padding:0 10px; 
+}
+p
+{
+ color:#757575;
+ font-size:120%;
+}
+.fb {
+  padding:2px; 
+  width:94%;
+  margin:0 auto;
+  margin-right:14px;
+    height:7%;
+  border: none;
+  border-radius: 5px;
+  border: 0; 
+  background:#4a6ea9;
+}
+.gmail {
+  padding:2px; 
+  width:94%;
+  height:7%;
+  margin:10 auto;
+  margin-right:14px;
+  border: none;
+  border-radius: 5px;
+  border: 0; 
+  background:#4a6ea9;
+}
+.epam {
+  padding: 1px;
+   width: 94%;
+   height:7%;
+  margin:70 auto;
+   font-size:150%;
+  margin-right:14px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background:#d0d253;
+}
+.fb1
+{
+ height:85%;
+}
+.gmail1
+{
+height:85%;
+}
+.forgot
+{
+  margin-left:12px;
+}
+.reg
+{
+ margin-right:12px;
+}
+}
+@media only screen and (min-width:1026px) and (max-width:1300px)
+{
+.back
+{
+ background:#FFF;
+}
+#nav-custom{
+    background:#01b4d2;
+    color:white;
+    width:50%;
+    margin: 0 auto 0 auto;
+ text-align: center;
+  border-bottom: none;
+  padding: 2px;
+}
+.logo{
+    height: 100%;
+    width:2em;
+}
+.logo img{
+    height: 100%;
+    width:100%;
+}
+  .header {
+  width: 50%;
+  margin: 0px auto 0px;
+  color: white;
+  background: #90caf9;
+  font-size:160%;
+  text-align: center;
+  border-bottom: none;
+  padding: 5px;
+}
+form, .content {
+  width: 50%;
+  height: 100%;
+  margin: 0px auto;
+  padding: 5px;
+  background: white;
+  border-radius: 0px 0px 0px 0px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group input {
+  height: 8%;
+  width: 95%;
+ font-size:160%;
+  padding: 5px 10px;
+  margin-top:4%;
+  margin:4 auto;
+  margin-right:14px;
+  style="text-align:center;
+  margin:auto;    
+  border-radius: 2px;
+  border: 1px solid gray;
+}
+
+.btn {
+  padding: 1px;
+   width: 95%;
+   height:7%;
+  color: white;
+  margin-top:25px;
+  font-size:160%;
+  margin:20 auto;
+  margin-right:14px;
+  background: #90caf9;
+  border: none;
+  border-radius: 5px;
+}
+h4 {
+   color:#9e9e9e;
+   width: 94%; 
+   text-align: center; 
+   border-bottom: 3px solid #9e9e9e;
+   line-height: 0.1em;
+   font-size:160%;
+   margin: 120px 0 80px; 
+   margin-left:2%;
+} 
+
+h4 span { 	
+    background:#fff; 
+    padding:0 10px; 
+}
+p
+{
+ color:#757575;
+font-size:120%;
+}
+.fb {
+  padding:2px; 
+  width:94%;
+  margin:0 auto;
+  margin-right:14px;
+    height:7%;
+  border: none;
+  border-radius: 5px;
+  border: 0; 
+  background:#4a6ea9;
+}
+.gmail {
+  padding:2px; 
+  width:94%;
+  height:7%;
+  margin:10 auto;
+  margin-right:14px;
+  border: none;
+  border-radius: 5px;
+  border: 0; 
+  background:#4a6ea9;
+}
+.epam {
+  padding: 1px;
+   width: 94%;
+   height:7%;
+  margin:70 auto;
+   font-size:150%;
+  margin-right:14px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background:#d0d253;
+}
+.fb1
+{
+ height:85%;
+}
+.gmail1
+{
+height:85%;
+}
+.forgot
+{
+  margin-left:12px;
+}
+.reg
+{
+ margin-right:12px;
+}
+}
+
